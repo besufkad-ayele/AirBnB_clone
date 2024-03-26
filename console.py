@@ -51,6 +51,7 @@ class HBNBCommand(cmd.Cmd):
 
     def emptyline(self):
         """Do nothing upon receiving an empty line."""
+        print("hi what is going on")
         pass
 
     def default(self, arg):
